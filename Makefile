@@ -1,6 +1,6 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+		pip install -r Requirements.txt
 
 test:
 	python -m pytest -vvv --cov=hello --cov=greeting \
